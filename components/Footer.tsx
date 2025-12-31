@@ -35,10 +35,6 @@ export const Footer: React.FC = () => {
         
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Ensenada Restaurant. All rights reserved.</p>
-          <div className="flex gap-8">
-            <span className="hover:text-gray-300 cursor-default">Built for Speed</span>
-            <span className="hover:text-gray-300 cursor-default">SEO Optimized</span>
-          </div>
         </div>
       </div>
     </footer>
