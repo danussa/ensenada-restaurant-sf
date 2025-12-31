@@ -1,4 +1,10 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
 export default defineConfig({
   base: "/ensenada-restaurant-sf/",
-  // ...rest of your config
-})
+  plugins: [react()],
+  build: {
+    sourcemap: false
+  }
+});
