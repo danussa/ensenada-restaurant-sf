@@ -1,0 +1,7 @@
+{
+  "name": "Ensenada Restaurant - Honduran & Nicaraguan Cuisine",
+  "description": "Mobile-first, SEO-optimized one-page site for Ensenada Restaurant in San Francisco, featuring authentic Honduran and Nicaraguan dishes.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
